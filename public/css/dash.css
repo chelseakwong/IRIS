@@ -1,0 +1,214 @@
+@font-face{
+    font-family: ProximaNova;
+    src: url('../fonts/ProximaNova-Regular.otf');
+    font-weight:400;
+}
+
+@font-face{
+    font-family: ProximaNova;
+    src: url('../fonts/ProximaNova-RegularItalic.otf');
+    font-style: italic;
+}
+
+@font-face{
+    font-family: ProximaNova;
+    src: url('../fonts/ProximaNova-Light.otf');
+    font-weight:100;
+}
+
+
+body {
+    background: url(../img/mountain.jpg) center no-repeat fixed;
+    background-size:cover;
+}
+
+div {
+    font-family: ProximaNova;
+    color: #FFFFFF;
+}
+
+/* WEATHER, TIME, AND DATE*/
+
+div #date{
+    color:#FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    text-shadow: 3px 3px 7px rgba(0,0,0,0.6);
+}
+
+div #time{
+    font-size:110px;
+    letter-spacing: 20px;
+    color:#FFFFFF;
+    text-shadow: 3px 3px 8px rgba(0,0,0,0.6);
+    margin-top: -10px;
+    display: inline-block;
+    vertical-align:top;
+}
+
+div #apm{
+    font-size:28px;
+    margin-top: 0px;
+    text-transform: uppercase;
+    color:#FFFFFF;
+    text-shadow: 3px 3px 8px rgba(0,0,0,0.6);
+    display: inline-block;
+    letter-spacing: 20px;
+    vertical-align:top;
+}
+
+/*WEATHER*/
+@font-face {
+    font-family: 'weather';
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.eot');
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.woff') format('woff'),
+         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.ttf') format('truetype'),
+         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.svg#artill_clean_weather_iconsRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+div #temp:hover{
+    cursor:hand;
+    cursor:pointer;
+    font-style:italic;
+}
+
+div #temp h2{
+    color: #FFFFFF;
+    margin-top:-5px;
+    margin-left: 10px;
+    font-size:50px;
+    letter-spacing: 12px;
+    text-shadow: 3px 3px 8px rgba(0,0,0,0.6);
+    display: inline-block;
+    vertical-align:bottom;
+}
+
+div #temp h3{
+    color: #FFFFFF;
+    margin-top:20px;
+    margin-left: -10px;
+    font-size:15px;
+    letter-spacing: 5px;
+    text-shadow: 3px 3px 8px rgba(0,0,0,0.6);
+    display: inline-block;
+    vertical-align:top;
+}
+
+div #temp i {
+  color: #FFFFFF;
+  font-family: weather;
+  font-size: 80px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.0;
+    text-shadow: 3px 3px 8px rgba(0,0,0,0.6);
+    display: inline-block;
+    vertical-align:bottom;
+}
+
+div #temp{
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+
+
+div #forecast{
+/*    display: inline-block;*/
+/*    vertical-align: middle;*/
+    font-weight: 100;
+    line-height: 10px;
+}
+
+
+div #temp h4{
+    font-size:12px;
+    color: #FFFFFF;
+    margin-top:-8px;
+    letter-spacing: 5px;
+    text-shadow: 3px 3px 8px rgba(0,0,0,0.6);
+    text-transform:uppercase;
+    background: transparent;
+    display: block;
+    border: 0;
+}
+
+div #forecast h3{
+    font-weight: 100;
+    margin-top:22px;
+    color: #ffffff;
+    letter-spacing: 3px;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 8px rgba(0,0,0,0.6);
+    line-height: 0em;
+}
+
+.icon-0:before { content: ":"; }
+.icon-1:before { content: "p"; }
+.icon-2:before { content: "S"; }
+.icon-3:before { content: "Q"; }
+.icon-4:before { content: "S"; }
+.icon-5:before { content: "W"; }
+.icon-6:before { content: "W"; }
+.icon-7:before { content: "W"; }
+.icon-8:before { content: "W"; }
+.icon-9:before { content: "I"; }
+.icon-10:before { content: "W"; }
+.icon-11:before { content: "I"; }
+.icon-12:before { content: "I"; }
+.icon-13:before { content: "I"; }
+.icon-14:before { content: "I"; }
+.icon-15:before { content: "W"; }
+.icon-16:before { content: "I"; }
+.icon-17:before { content: "W"; }
+.icon-18:before { content: "U"; }
+.icon-19:before { content: "Z"; }
+.icon-20:before { content: "Z"; }
+.icon-21:before { content: "Z"; }
+.icon-22:before { content: "Z"; }
+.icon-23:before { content: "Z"; }
+.icon-24:before { content: "E"; }
+.icon-25:before { content: "E"; }
+.icon-26:before { content: "3"; }
+.icon-27:before { content: "a"; }
+.icon-28:before { content: "A"; }
+.icon-29:before { content: "a"; }
+.icon-30:before { content: "A"; }
+.icon-31:before { content: "6"; }
+.icon-32:before { content: "1"; }
+.icon-33:before { content: "6"; }
+.icon-34:before { content: "1"; }
+.icon-35:before { content: "W"; }
+.icon-36:before { content: "1"; }
+.icon-37:before { content: "S"; }
+.icon-38:before { content: "S"; }
+.icon-39:before { content: "S"; }
+.icon-40:before { content: "M"; }
+.icon-41:before { content: "W"; }
+.icon-42:before { content: "I"; }
+.icon-43:before { content: "W"; }
+.icon-44:before { content: "a"; }
+.icon-45:before { content: "S"; }
+.icon-46:before { content: "U"; }
+.icon-47:before { content: "S"; }
+
+
+/* EMAILS */
+div #emails{
+    background: rgba(0,0,0,0.5);
+}
+
+div #emails h3{
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+dt{
+    font-size: 14px;
+}
+dd{
+    font-size: 12px;
+    font-style:italic;
+}
